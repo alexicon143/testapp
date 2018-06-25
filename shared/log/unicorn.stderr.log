@@ -1,0 +1,208 @@
+I, [2018-06-25T00:47:39.046249 #6689]  INFO -- : Refreshing Gem list
+I, [2018-06-25T00:47:50.125390 #6689]  INFO -- : listening on addr=/mnt/nas/testproject/testapp/shared/sockets/unicorn.sock fd=12
+I, [2018-06-25T00:47:50.125816 #6689]  INFO -- : worker=0 spawning...
+I, [2018-06-25T00:47:50.127620 #6689]  INFO -- : worker=1 spawning...
+I, [2018-06-25T00:47:50.129125 #6689]  INFO -- : master process ready
+I, [2018-06-25T00:47:50.131113 #6694]  INFO -- : worker=0 spawned pid=6694
+I, [2018-06-25T00:47:50.135278 #6694]  INFO -- : worker=0 ready
+I, [2018-06-25T00:47:50.135970 #6697]  INFO -- : worker=1 spawned pid=6697
+I, [2018-06-25T00:47:50.150455 #6697]  INFO -- : worker=1 ready
+I, [2018-06-25T11:06:09.499678 #6689]  INFO -- : reaped #<Process::Status: pid 6694 exit 0> worker=0
+I, [2018-06-25T11:06:09.519081 #6689]  INFO -- : reaped #<Process::Status: pid 6697 exit 0> worker=1
+I, [2018-06-25T11:06:09.519561 #6689]  INFO -- : master complete
+I, [2018-06-25T11:08:44.065518 #13875]  INFO -- : Refreshing Gem list
+I, [2018-06-25T11:08:53.791471 #13875]  INFO -- : unlinking existing socket=/mnt/nas/testproject/testapp/shared/sockets/unicorn.sock
+I, [2018-06-25T11:08:53.837734 #13875]  INFO -- : listening on addr=/mnt/nas/testproject/testapp/shared/sockets/unicorn.sock fd=12
+I, [2018-06-25T11:08:53.838206 #13875]  INFO -- : worker=0 spawning...
+I, [2018-06-25T11:08:53.840048 #13875]  INFO -- : worker=1 spawning...
+I, [2018-06-25T11:08:53.841960 #13875]  INFO -- : master process ready
+I, [2018-06-25T11:08:53.843079 #13880]  INFO -- : worker=0 spawned pid=13880
+I, [2018-06-25T11:08:53.844696 #13880]  INFO -- : worker=0 ready
+I, [2018-06-25T11:08:53.849372 #13883]  INFO -- : worker=1 spawned pid=13883
+I, [2018-06-25T11:08:53.849992 #13883]  INFO -- : worker=1 ready
+I, [2018-06-25T11:09:10.184948 #13875]  INFO -- : reaped #<Process::Status: pid 13880 exit 0> worker=0
+I, [2018-06-25T11:09:10.185556 #13875]  INFO -- : reaped #<Process::Status: pid 13883 exit 0> worker=1
+I, [2018-06-25T11:09:10.185981 #13875]  INFO -- : master complete
+I, [2018-06-25T11:09:53.065177 #14090]  INFO -- : Refreshing Gem list
+NoMethodError: undefined method `to' for #<ActionDispatch::Routing::Mapper:0x0000563ff97139e8>
+  /mnt/nas/testproject/testapp/config/routes.rb:2:in `block in <main>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:432:in `instance_exec'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:432:in `eval_block'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:414:in `draw'
+  /mnt/nas/testproject/testapp/config/routes.rb:1:in `<main>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:277:in `block in load'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:249:in `load_dependency'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:277:in `load'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:57:in `block in load_paths'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:57:in `each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:57:in `load_paths'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:20:in `reload!'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:43:in `block in updater'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/file_update_checker.rb:83:in `execute'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:44:in `updater'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:33:in `execute_if_updated'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/finisher.rb:130:in `block in <module:Finisher>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:32:in `instance_exec'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:32:in `run'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:61:in `block in run_initializers'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `call'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:60:in `run_initializers'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application.rb:361:in `initialize!'
+  /mnt/nas/testproject/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:4:in `require_relative'
+  config.ru:4:in `block in <main>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rack-2.0.5/lib/rack/builder.rb:55:in `instance_eval'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rack-2.0.5/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/lib/unicorn.rb:56:in `eval'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/lib/unicorn.rb:56:in `block in builder'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/lib/unicorn/http_server.rb:795:in `build_app!'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/lib/unicorn/http_server.rb:139:in `start'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/bin/unicorn:126:in `<top (required)>'
+  /home/Web/.rbenv/versions/2.5.1/bin/unicorn:23:in `load'
+  /home/Web/.rbenv/versions/2.5.1/bin/unicorn:23:in `<top (required)>'
+I, [2018-06-25T11:14:34.958982 #14270]  INFO -- : Refreshing Gem list
+NoMethodError: undefined method `to' for #<ActionDispatch::Routing::Mapper:0x000055c2f6b651c0>
+  /mnt/nas/testproject/testapp/config/routes.rb:2:in `block in <main>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:432:in `instance_exec'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:432:in `eval_block'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:414:in `draw'
+  /mnt/nas/testproject/testapp/config/routes.rb:1:in `<main>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:277:in `block in load'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:249:in `load_dependency'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:277:in `load'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:57:in `block in load_paths'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:57:in `each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:57:in `load_paths'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:20:in `reload!'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:43:in `block in updater'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/file_update_checker.rb:83:in `execute'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:44:in `updater'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:33:in `execute_if_updated'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/finisher.rb:130:in `block in <module:Finisher>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:32:in `instance_exec'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:32:in `run'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:61:in `block in run_initializers'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `call'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:60:in `run_initializers'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application.rb:361:in `initialize!'
+  /mnt/nas/testproject/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:4:in `require_relative'
+  config.ru:4:in `block in <main>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rack-2.0.5/lib/rack/builder.rb:55:in `instance_eval'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rack-2.0.5/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/lib/unicorn.rb:56:in `eval'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/lib/unicorn.rb:56:in `block in builder'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/lib/unicorn/http_server.rb:795:in `build_app!'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/lib/unicorn/http_server.rb:139:in `start'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/bin/unicorn:126:in `<top (required)>'
+  /home/Web/.rbenv/versions/2.5.1/bin/unicorn:23:in `load'
+  /home/Web/.rbenv/versions/2.5.1/bin/unicorn:23:in `<top (required)>'
+I, [2018-06-25T11:16:45.373382 #14408]  INFO -- : Refreshing Gem list
+NoMethodError: undefined method `to' for #<ActionDispatch::Routing::Mapper:0x0000556bb5384570>
+  /mnt/nas/testproject/testapp/config/routes.rb:2:in `block in <main>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:432:in `instance_exec'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:432:in `eval_block'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionpack-5.2.0/lib/action_dispatch/routing/route_set.rb:414:in `draw'
+  /mnt/nas/testproject/testapp/config/routes.rb:1:in `<main>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/bootsnap-1.3.0/lib/bootsnap/load_path_cache/core_ext/kernel_require.rb:50:in `load'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:277:in `block in load'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:249:in `load_dependency'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/dependencies.rb:277:in `load'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:57:in `block in load_paths'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:57:in `each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:57:in `load_paths'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:20:in `reload!'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:43:in `block in updater'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.2.0/lib/active_support/file_update_checker.rb:83:in `execute'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:44:in `updater'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/routes_reloader.rb:33:in `execute_if_updated'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application/finisher.rb:130:in `block in <module:Finisher>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:32:in `instance_exec'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:32:in `run'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:61:in `block in run_initializers'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:228:in `block in tsort_each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:431:in `each_strongly_connected_component_from'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:349:in `block in each_strongly_connected_component'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `call'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:347:in `each_strongly_connected_component'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:226:in `tsort_each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/2.5.0/tsort.rb:205:in `tsort_each'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/initializable.rb:60:in `run_initializers'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.0/lib/rails/application.rb:361:in `initialize!'
+  /mnt/nas/testproject/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:4:in `require_relative'
+  config.ru:4:in `block in <main>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rack-2.0.5/lib/rack/builder.rb:55:in `instance_eval'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rack-2.0.5/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/lib/unicorn.rb:56:in `eval'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/lib/unicorn.rb:56:in `block in builder'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/lib/unicorn/http_server.rb:795:in `build_app!'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/lib/unicorn/http_server.rb:139:in `start'
+  /home/Web/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/unicorn-5.4.0/bin/unicorn:126:in `<top (required)>'
+  /home/Web/.rbenv/versions/2.5.1/bin/unicorn:23:in `load'
+  /home/Web/.rbenv/versions/2.5.1/bin/unicorn:23:in `<top (required)>'
+I, [2018-06-25T11:18:01.160274 #14544]  INFO -- : Refreshing Gem list
+I, [2018-06-25T11:18:09.860748 #14544]  INFO -- : unlinking existing socket=/mnt/nas/testproject/testapp/shared/sockets/unicorn.sock
+I, [2018-06-25T11:18:09.864848 #14544]  INFO -- : listening on addr=/mnt/nas/testproject/testapp/shared/sockets/unicorn.sock fd=12
+I, [2018-06-25T11:18:09.865261 #14544]  INFO -- : worker=0 spawning...
+I, [2018-06-25T11:18:09.867231 #14544]  INFO -- : worker=1 spawning...
+I, [2018-06-25T11:18:09.868949 #14544]  INFO -- : master process ready
+I, [2018-06-25T11:18:09.870894 #14548]  INFO -- : worker=0 spawned pid=14548
+I, [2018-06-25T11:18:09.871409 #14548]  INFO -- : worker=0 ready
+I, [2018-06-25T11:18:09.876260 #14551]  INFO -- : worker=1 spawned pid=14551
+I, [2018-06-25T11:18:09.878116 #14551]  INFO -- : worker=1 ready
+I, [2018-06-25T11:20:28.404633 #14544]  INFO -- : reaped #<Process::Status: pid 14548 exit 0> worker=0
+I, [2018-06-25T11:20:28.405310 #14544]  INFO -- : reaped #<Process::Status: pid 14551 exit 0> worker=1
+I, [2018-06-25T11:20:28.405846 #14544]  INFO -- : master complete
+I, [2018-06-25T11:57:09.188176 #15639]  INFO -- : Refreshing Gem list
+I, [2018-06-25T11:57:24.579641 #15639]  INFO -- : unlinking existing socket=/mnt/nas/testproject/testapp/shared/sockets/unicorn.sock
+I, [2018-06-25T11:57:24.584395 #15639]  INFO -- : listening on addr=/mnt/nas/testproject/testapp/shared/sockets/unicorn.sock fd=12
+I, [2018-06-25T11:57:24.584858 #15639]  INFO -- : worker=0 spawning...
+I, [2018-06-25T11:57:24.586767 #15639]  INFO -- : worker=1 spawning...
+I, [2018-06-25T11:57:24.588309 #15639]  INFO -- : master process ready
+I, [2018-06-25T11:57:24.590142 #15645]  INFO -- : worker=0 spawned pid=15645
+I, [2018-06-25T11:57:24.594012 #15645]  INFO -- : worker=0 ready
+I, [2018-06-25T11:57:24.595763 #15648]  INFO -- : worker=1 spawned pid=15648
+I, [2018-06-25T11:57:24.603739 #15648]  INFO -- : worker=1 ready
+I, [2018-06-25T11:57:57.276124 #15639]  INFO -- : reaped #<Process::Status: pid 15645 exit 0> worker=0
+I, [2018-06-25T11:57:57.276862 #15639]  INFO -- : reaped #<Process::Status: pid 15648 exit 0> worker=1
+I, [2018-06-25T11:57:57.277345 #15639]  INFO -- : master complete
+I, [2018-06-25T11:58:19.713223 #15798]  INFO -- : Refreshing Gem list
+I, [2018-06-25T11:58:28.443546 #15798]  INFO -- : unlinking existing socket=/mnt/nas/testproject/testapp/shared/sockets/unicorn.sock
+I, [2018-06-25T11:58:28.447918 #15798]  INFO -- : listening on addr=/mnt/nas/testproject/testapp/shared/sockets/unicorn.sock fd=12
+I, [2018-06-25T11:58:28.448443 #15798]  INFO -- : worker=0 spawning...
+I, [2018-06-25T11:58:28.450455 #15798]  INFO -- : worker=1 spawning...
+I, [2018-06-25T11:58:28.452150 #15798]  INFO -- : master process ready
+I, [2018-06-25T11:58:28.454264 #15803]  INFO -- : worker=0 spawned pid=15803
+I, [2018-06-25T11:58:28.458048 #15803]  INFO -- : worker=0 ready
+I, [2018-06-25T11:58:28.458849 #15806]  INFO -- : worker=1 spawned pid=15806
+I, [2018-06-25T11:58:28.467239 #15806]  INFO -- : worker=1 ready

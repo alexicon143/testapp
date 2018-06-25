@@ -16,7 +16,7 @@ module Testapp
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
   end
-  class Application < Rails::Application
-    config.web_console.whitelisted_ips = '0.0.0.0/0'
-  end
+  #class Application < Rails::Application
+  #  config.web_console.whitelisted_ips = '0.0.0.0/0'
+  #end
 end
